@@ -1,0 +1,16 @@
+name: Daily Scheduled Task
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Generate report
+        run: python generate_report.py
