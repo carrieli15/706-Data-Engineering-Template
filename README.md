@@ -5,23 +5,23 @@
 This is a repo template for course 706_Data_Engineering Mini Project. It contains:
 
 - ``.devcontainer`` including a Dockerfile and devcontainer.json
-                the 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+                The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
 
-- ``workflows`` including GitHub Actions,which contain configuration files for setting up automated build, test and deployment pipelines for your project.
+- ``workflows`` including GitHub Actions, which contain configuration files for setting up automated build, test and deployment pipelines for your project.
 
-- ``.gitignore``this file is used to specify which files or directories should be excluded from vrsion control when using Git.
+- ``.gitignore`` this file is used to specify which files or directories should be excluded from vrsion control when using Git.
 
 - ``Makefile`` a makefile is a configuration file used in Unix-based systems for autmating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
 
 - ``README.md`` is the instrcation file for the readers.
 
-- ``main.py``python file
+- ``main.py`` a python file.
 
-- ``requirements.txt``this file is to specify the dependencies (libraries and packages) required to run the project.
+- ``requirements.txt`` this file is to specify the dependencies (libraries and packages) required to run the project.
 
-- ``test_main.py``test file for main.py
+- ``test_main.py`` is a test file for main.py that can successfully run in IDEs.
 
-I use Github Actions to run the Makefile as follows: `make install`, `make test`, `make format`, `make lint`.The following pictures show the pass result:
+I use Github Actions to run the Makefile as follows: `make install`, `make test`, `make format`, `make lint`.The following pictures show the pass results:
 
 <!-- <img decoding="async" src="https://github.com/carrieli15/706-Data-Engineering-Template/issues/1#issue-1885098942" width="50%">
 
