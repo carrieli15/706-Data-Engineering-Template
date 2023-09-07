@@ -1,6 +1,6 @@
 [![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
 
-## 706-DE-Template
+## 706-Data-Engineering-Template
 
 This is a repo template for course 706_Data_Engineering Mini Project. It contains:
 
