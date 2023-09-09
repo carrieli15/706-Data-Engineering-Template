@@ -4,20 +4,20 @@
 
 This is a repo template for course 706_Data_Engineering Mini Project. It contains:
 
-- ``.devcontainer`` including a Dockerfile and devcontainer.json
+- ``.devcontainer`` includes a Dockerfile and devcontainer.json.
                 The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
 
-- ``workflows`` including GitHub Actions, which contain configuration files for setting up automated build, test and deployment pipelines for your project.
+- ``workflows`` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 
-- ``.gitignore`` this file is used to specify which files or directories should be excluded from vrsion control when using Git.
+- ``.gitignore`` is used to specify which files or directories should be excluded from version control when using Git.
 
-- ``Makefile`` a makefile is a configuration file used in Unix-based systems for autmating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+- ``Makefile`` is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
 
-- ``README.md`` is the instrcation file for the readers.
+- ``README.md`` is the instruction file for the readers.
 
-- ``main.py`` a python file.
+- ``main.py`` is a Python file.
 
-- ``requirements.txt`` this file is to specify the dependencies (libraries and packages) required to run the project.
+- ``requirements.txt`` is to specify the dependencies (libraries and packages) required to run the project.
 
 - ``test_main.py`` is a test file for main.py that can successfully run in IDEs.
 
