@@ -21,7 +21,7 @@ This is a repo template for course 706_Data_Engineering Mini Project. It contain
 
 - ``test_main.py`` is a test file for main.py that can successfully run in IDEs.
 
-- ``Image`` saves the running results.
+- ``img`` saves the running results.
 
 I use Github Actions to run the Makefile as follows: `make install`, `make test`, `make format`, `make lint`.The following pictures show the pass results:
 
